@@ -3,7 +3,8 @@ import { TextField } from "@mui/material";
 
 interface InputFieldProps {
     label: string;
-    value: number;
+    value: string | number;
+    type: string;
     onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
